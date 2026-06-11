@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <header class="mi-header">
+  <div class="barra-superior">
+    <h1>Mi Solución</h1>
+    <!-- El botón del menú hamburguesa -->
+    <button id="boton-menu" class="btn-menu">☰</button>
+  </div>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi App Tecnológica</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
+  <!-- Los enlaces de navegación que inicialmente estarán ocultos -->
+  <nav id="navegacion" class="menu-oculto">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="#galeria">🖼️ Galería</a>
+    <a href="#contacto">📞 Soporte Técnico</a>
+  </nav>
+    
 </head>
+
 <body>
 <section class="seccion-media">
+  <section class="seccion-media">
   <div class="galeria-vertical">
-    <img src="imagen1.jpg" alt="Foto 1 del proyecto" class="img-proyecto">
-    <img src="imagen2.jpg" alt="Foto 2 del proyecto" class="img-proyecto">
-    <img src="imagen3.jpg" alt="Foto 3 del proyecto" class="img-proyecto">
+    <img src="imagenes/imagen.jpg" alt="Foto 1 del proyecto" class="img-proyecto">
+    <img src="imagenes/imagen 2.jpg" alt="Foto 2 del proyecto" class="img-proyecto">
+    <img src="imagenes/imagen 3.jpg" alt="Foto 3 del proyecto" class="img-proyecto">
   </div>
   
-<div class="video-contenedor">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/2WaPoIQLJYs?si=31iQFhWcT-ad8nRu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  <div class="video-contenedor">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3eGFfbyk2Q?si=81qQl2zkCQKe2nfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </section>
 
+  </div>
+</section>
 <div class="contenedor-app">
     <header class="mi-header">
         <h1>Panel de Control</h1>
     </header>
-    
     <main class="contenido">
         <p>Selecciona una opción para continuar:</p>
         
         <div class="grid-servicios">
             <div class="card" id="btn-reportar">
-                <span class="icon">❌</span>
-                <h3>Reportar error</h3>
+                <span class="icon">❌​</span>
+                <h3>Reportar Fallo</h3>
             </div>
-        
+            
             <div class="card" id="btn-manual">
                 <span class="icon">🔍</span>
-                <h3>Ver contenido</h3>
+                <h3>Ver Manual</h3>
             </div>
         </div>
     </main>
@@ -45,3 +62,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+🔍
+❌
